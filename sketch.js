@@ -1,5 +1,3 @@
-
-
 let gameStarted = false;
 let gameOver = false;
 let gameWon = false;
@@ -11,9 +9,9 @@ let gamePaddle;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  
-  let BRICK_WIDTH = windowWidth/10;
-  let BRICK_HEIGHT = 20;
+
+  let BRICK_WIDTH = windowWidth / 10;
+  let BRICK_HEIGHT = 40;
   let Y_OFFSET = 40;
 
   createBricks(1, BRICK_WIDTH, BRICK_HEIGHT, Y_OFFSET); // default level 1
@@ -109,7 +107,9 @@ function createBricks(level, BRICK_WIDTH, BRICK_HEIGHT, Y_OFFSET) {
 
   for (let row = 0; row < ROWS_OF_BRICKS; row++) {
     for (let col = 0; col < BRICKS_IN_ROW; col++) {
-      bricks.push(new Brick(row, col, BRICK_WIDTH,BRICK_HEIGHT,X_OFFSET, Y_OFFSET));
+      bricks.push(
+        new Brick(row, col, BRICK_WIDTH, BRICK_HEIGHT, X_OFFSET, Y_OFFSET)
+      );
     }
   }
 }

@@ -1,4 +1,8 @@
-html, body {
+html {
+  overflow: hidden;
+}
+html,
+body {
   margin: 0;
   padding: 0;
 }
