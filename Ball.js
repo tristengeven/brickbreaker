@@ -2,10 +2,10 @@ class Ball {
   constructor() {
     this.x = width / 2;
     this.y = height - 40;
-    this.diameter = 15;
+    this.diameter = 30;
     this.radius = this.diameter / 2;
-    this.vx = 1.75; //random(-2, 2);
-    this.vy = -4;
+    this.vx = random(-2, 2);
+    this.vy = -8;
     this.LEFT_EDGE = this.x - this.radius;
     this.RIGHT_EDGE = this.x + this.radius;
     this.BOT_EDGE = this.y + this.radius;
