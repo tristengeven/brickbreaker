@@ -1,5 +1,5 @@
 class Brick {
-  constructor(brickRow, brickCol, START_X) {
+  constructor(brickRow, brickCol, BRICK_WIDTH, BRICK_HEIGHT, START_X, START_Y) {
     // rect(x,y,width,height)
     this.x = brickCol * BRICK_WIDTH + START_X;
     this.y = brickRow * BRICK_HEIGHT + START_Y;
