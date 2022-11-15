@@ -7,6 +7,8 @@ let bricks = [];
 let gameBall;
 let gamePaddle;
 
+const COLOR_PALLETE = ["red", "green", "blue"];
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
 
