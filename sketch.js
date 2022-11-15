@@ -113,3 +113,8 @@ function createBricks(level, BRICK_WIDTH, BRICK_HEIGHT, Y_OFFSET) {
     }
   }
 }
+
+// attempt to fix iphone scrolling
+document.ontouchmove = function (e) {
+  e.preventDefault();
+};
