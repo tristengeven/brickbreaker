@@ -4,8 +4,8 @@ class Ball {
     this.y = height - 40;
     this.diameter = 30;
     this.radius = this.diameter / 2;
-    this.vx = random(-2, 2);
-    this.vy = -8;
+    this.vx = random(-3, 3);
+    this.vy = -15;
     this.LEFT_EDGE = this.x - this.radius;
     this.RIGHT_EDGE = this.x + this.radius;
     this.BOT_EDGE = this.y + this.radius;

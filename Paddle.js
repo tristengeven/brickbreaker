@@ -1,9 +1,9 @@
 class Paddle {
   constructor() {
     this.x = width / 2;
-    this.y = height - 30;
-    this.width = 60;
-    this.height = 14;
+    this.y = height - 200;
+    this.width = 120;
+    this.height = 30;
     this.LEFT_EDGE = this.x;
     this.RIGHT_EDGE = this.x + this.width;
     this.TOP_EDGE = this.y;
